@@ -1,0 +1,13 @@
+,missing_count,missing_pct
+ticket_id,0,0.0
+created_at,0,0.0
+sla_deadline,0,0.0
+resolved_at,0,0.0
+priority,0,0.0
+category,0,0.0
+channel,0,0.0
+customer_tier,0,0.0
+assigned_group,0,0.0
+num_reassignments,0,0.0
+response_time_first,0,0.0
+sla_breached,0,0.0
