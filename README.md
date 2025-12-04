@@ -25,29 +25,32 @@ https://sla-breach-prediction.streamlit.app/
 
 ## 📁 Project Structure
 
-📦 sla-breach-prediction
+```
+sla-breach-prediction/
 │
-├── 📂 data
-│ ├── 📂 raw (ignored from Git)
-│ └── 📂 processed
+├── data/
+│   ├── raw/                      # Original dataset (ignored in git)
+│   └── processed/                # Cleaned / feature-engineered data
 │
-├── 📂 notebooks
-│ └── 📘 eda.ipynb
+├── notebooks/
+│   └── eda.ipynb                 # Exploratory Data Analysis notebook
 │
-├── 📂 src
-│ ├── 🧹 eda.py
-│ ├── 🧪 feature_engineering.py
-│ ├── 🤖 train_model.py
-│ ├── 📈 evaluate_model.py
-│ └── 🌐 streamlit_app.py
+├── src/
+│   ├── eda.py                    # Automated EDA + plot generation
+│   ├── feature_engineering.py    # Feature engineering functions
+│   ├── train_model.py            # Model training + tuning + saving
+│   ├── evaluate_model.py         # Model evaluation utilities
+│   └── streamlit_app.py          # Streamlit UI (single + batch + SHAP)
 │
-├── 📂 models
-├── 📂 plots
-├── 📂 reports
+├── models/                       # Saved ML models
+├── plots/                        # EDA plots + confusion matrix
+├── reports/                      # SHAP background, metrics, reports
 │
-├── 📄 requirements.txt
-├── 📄 README.md
-└── 📄 .gitignore
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
 
 🧠 Key Features
 ✔ End-to-End ML Pipeline
@@ -181,4 +184,5 @@ Machine Learning & Data Science Enthusiast
 GitHub: https://github.com/teja05-45
 
 LinkedIn: https://www.linkedin.com/in/teja-matta-602b3531a
+
 
